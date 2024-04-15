@@ -13,6 +13,8 @@ website:
         file: catalog.qmd
       - text: News
         file: news.qmd
+      - icon: github
+        href: https://github.com/rohitfarmer
   page-footer: 
     center: "Copyright: 2024 - current PREMISE"
     border: true

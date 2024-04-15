@@ -9,6 +9,7 @@
 # User-specific files
 .Ruserdata
 _site
+.DS_Store
 
 # Example code in package build process
 *-Ex.R

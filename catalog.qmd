@@ -24,3 +24,13 @@ datatable(filter = 'top', escape = FALSE)
 ```
 
 
+
+<br>
+
+### Zenodo Communities
+
+Communities are shared areas on Zenodo where projects, institutions, domains, and conferences can curate and manage their research outputs. Communities provides features for managing members, reviewing submissions and curating content in the community.
+
+Zenodo Communities: [https://zenodo.org/communities/biosyslit/](https://zenodo.org/communities/biosyslit/)  
+
+PREMISE Community [https://zenodo.org/communities/premise/](https://zenodo.org/communities/premise/)
