@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "PREMISE Databases"
+  site-url: https://niaid.github.io/premise-db
+  description: "PREMISE Databases"
+  back-to-top-navigation: true
+  navbar:
+    background: primary
+    right:
+      - text: Catalog
+        file: catalog.qmd
+      - text: News
+        file: news.qmd
+  page-footer: 
+    center: "Copyright: 2024 - current PREMISE"
+    border: true
+    background: dark
+  twitter-card: true
+  open-graph: true
+
+format:
+  html:
+    theme: 
+      light: cosmo
+    link-external-icon: true
+    link-external-newwindow: true
+
+editor: source
+
+

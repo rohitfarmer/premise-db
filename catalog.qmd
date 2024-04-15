@@ -1,0 +1,26 @@
+---
+title: Catalog
+description: "Check out what we have in store"
+page-layout: full
+title-block-banner: true
+comments: false
+execute:
+    echo: false
+---
+
+
+```{r}
+#| warning: false
+suppressMessages(library(tidyverse))
+suppressMessages(library(DT))
+
+dat <- read_tsv(file.path("data", "antibody-meta-data.txt"))
+```
+
+```{r}
+dat %>%
+dplyr::mutate("Data_access" = paste0('<a href="', Data_access, '">', Data_access, '</a>')) %>% 
+datatable(filter = 'top', escape = FALSE)
+```
+
+

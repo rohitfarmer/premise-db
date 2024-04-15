@@ -1,0 +1,10 @@
+Project	Sample origin	Participant condition	Pathogen	Time of infection	Month and year antibody candidate isolated	Antigen used to isolate B cell for sequencing	Gate	Sort date	Data_access
+A	USA	convalescent	Z	NA	NA	NA	NA	NA	https://doi.org/10.5281/zenodo.10463110
+B	India	vaccinated	Y	NA	NA	NA	NA	NA	
+C	China	convalescent	X	NA	NA	NA	NA	NA	
+A	Germany	vaccinated	Z	NA	NA	NA	NA	NA	
+B	UK	convalescent	Y	NA	NA	NA	NA	NA	
+C	Israel	vaccinated	X	NA	NA	NA	NA	NA	
+A	Pakistan	convalescent	Z	NA	NA	NA	NA	NA	
+B	Korea	vaccinated	Y	NA	NA	NA	NA	NA	
+C	Etc.	convalescent	X	NA	NA	NA	NA	NA	
