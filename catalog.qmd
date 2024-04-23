@@ -1,6 +1,6 @@
 ---
 title: Catalog
-description: "Check out what we have in store"
+description: "List of all PREMISE databases"
 page-layout: full
 title-block-banner: true
 comments: false
@@ -22,15 +22,3 @@ dat %>%
 dplyr::mutate("Data_access" = paste0('<a href="', Data_access, '">', Data_access, '</a>')) %>% 
 datatable(filter = 'top', escape = FALSE)
 ```
-
-
-
-<br>
-
-### Zenodo Communities
-
-Communities are shared areas on Zenodo where projects, institutions, domains, and conferences can curate and manage their research outputs. Communities provides features for managing members, reviewing submissions and curating content in the community.
-
-Zenodo Communities: [https://zenodo.org/communities/biosyslit/](https://zenodo.org/communities/biosyslit/)  
-
-PREMISE Community [https://zenodo.org/communities/premise/](https://zenodo.org/communities/premise/)

@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>PREMISE Databases</title>
-<link>https://niaid.github.io/premise-db/news.html</link>
-<atom:link href="https://niaid.github.io/premise-db/news.xml" rel="self" type="application/rss+xml"/>
+<link>https://rohitfarmer.github.io/premise-db/news.html</link>
+<atom:link href="https://rohitfarmer.github.io/premise-db/news.xml" rel="self" type="application/rss+xml"/>
 <description>PREMISE News</description>
 <generator>quarto-1.4.551</generator>
 <lastBuildDate>Mon, 15 Apr 2024 04:00:00 GMT</lastBuildDate>
 <item>
   <title>First Database Release</title>
   <dc:creator>PREMISE Team</dc:creator>
-  <link>https://niaid.github.io/premise-db/news/2024/first-database-release.html</link>
+  <link>https://rohitfarmer.github.io/premise-db/news/2024/first-database-release.html</link>
   <description><![CDATA[ 
 
 
@@ -29,7 +29,7 @@
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <guid>https://niaid.github.io/premise-db/news/2024/first-database-release.html</guid>
+  <guid>https://rohitfarmer.github.io/premise-db/news/2024/first-database-release.html</guid>
   <pubDate>Mon, 15 Apr 2024 04:00:00 GMT</pubDate>
 </item>
 </channel>
