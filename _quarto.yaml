@@ -1,10 +1,11 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "PREMISE Databases"
   site-url: https://niaid.github.io/premise-db
-  description: "PREMISE Databases"
+  description: "At the NIAID Vaccine Research Center, the PREMISE (Pandemic REsponse REpository through Microbial and Immune Surveillance and Epidemiology) program was established to support pandemic preparedness and response."
   back-to-top-navigation: true
   navbar:
     background: primary
@@ -16,7 +17,7 @@ website:
       - icon: github
         href: https://github.com/rohitfarmer
   page-footer: 
-    center: "Copyright: 2024 - current PREMISE"
+    center: "Contact: premise@nih.gov"
     border: true
     background: dark
   twitter-card: true
@@ -28,6 +29,9 @@ format:
       light: cosmo
     link-external-icon: true
     link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <meta name="robots" content="noindex, nofollow" />
 
 editor: source
 

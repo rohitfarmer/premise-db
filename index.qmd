@@ -1,50 +1,18 @@
 ---
-description: "PREMISE Databases"
+pagetitle: "PREMISE Databases"
 page-layout: full
 title-block-banner: false
 comments: false
+open-graph:
+  image: images/premise.png
+twitter-card:
+  image: images/premise.png
 ---
 
+```{=html}
+<img src="images/premise.png" alt="PREMISE infographics" align="right" width="260" style="padding: 10px 10px 10px 10px;"/>
+```
 
 At the NIAID Vaccine Research Center, the PREMISE (Pandemic REsponse REpository through Microbial and Immune Surveillance and Epidemiology) program was established to support pandemic preparedness and response. Through a network of investigators and collaborators, PREMISE conducts virologic and immunologic screening of targeted and broad cohorts to detect reactivity against pathogens of pandemic potential. PREMISE also sequences samples from animal reservoirs and symptomatic humans to identify new and re-emerging pathogens. The resulting analyses are shared to pre-emptively generate reagent and data resources for early detection and diagnosis, and to identify monoclonal antibodies and immunogens for vaccine and therapeutic discovery and development. Ultimately, PREMISE aims to serve as a translational vehicle to integrate serologic and cellular immune discovery, targeting a broad array of pathogens, into product development for pathogens with pandemic potential.
 
-![](images/premise.png)
-
-## PREMISE/VRC antibody candidate database proposal
-**Goal:** To store PREMISE/VRC antibody candidate data from single B cell sequencing studies in a database for collaborators and the public to access for research use.  
-
-### Functionality requirements for the PREMISE team to be able to implement
-- Store multiple types of data and file formats
-- Modify existing data fields and add data fields as needed
-- Have search capabilities for specific results (i.e., antibody sequences for Nipah)
-- Keeps data private but allows access per request
-- Export data based on requests into a useable format
-- Minimize data curation expectations for the PREMISE/VRC team 
-
-### Types of data to be shared
-#### To be publicly available
-
-##### Antibody candidate meta data 
-- Project
-- Sample origin (i.e., state, country, etc.)
-- Participant condition (i.e., convalescent, vaccinated, etc.)
-- Pathogen(s)
-- Time point of infection
-- Month and year antibody candidate isolated
-- Antigen used to isolate B cell for sequencing
-- Gate
-- Sort date
-- Contact person for more information
-
-#### To be available upon approved request (information above + additional information):
-
-##### Antibody candidate data 
-- Heavy chain sequence
-- Light chain sequence
-- Gene usage
-- Binding data
-- Neutralization data
-- Cross neutralization data
-
-#### To be available internally only
-- Sample or plate storage freezer location (Labkey: NIAID has enterprise license.)
+**Contact:** [premise@nih.gov](mailto:premise@nih.gov) 
