@@ -1,2 +1,2 @@
 Project	Sample origin	Participant Condition	Pathogen	Time of Sample Collection	Time of Antibody Isolation	Antigen Used	Gate	Sort Date	Data Access
-RATP-Ig SARS-CoV-2	USA	Convalescent	SARS-CoV-2	March 2020 - Jan 2021	NA	NA	NA	NA	https://doi.org/10.1038/s41467-022-35456-2
+RATP-Ig SARS-CoV-2	USA	Convalescent	SARS-CoV-2	March 2020 - Jan 2021	17-38 days post symptoms onset	"WA1 and Beta variant S2P, RBD and NTD probes"	Memory B cells (CD3-CD8-CD56-CD14-CD16-CD19+CD20+IgGorIgA+IgM-) double positive for WA1 and Beta probes	April - May 2021	https://doi.org/10.1038/s41467-022-35456-2
