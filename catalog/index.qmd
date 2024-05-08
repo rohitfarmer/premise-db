@@ -1,12 +1,18 @@
 ---
-title: Catalog
-description: "List of all the PREMISE databases"
-page-layout: full
-title-block-banner: true
+pagetitle: Catalog
+title-block-banner: false
 comments: false
 execute:
     echo: false
 ---
+
+:::{.column-screen-inset}
+# Catalog
+## Antibody Sequences
+:::
+
+
+
 
 
 ```{r}
@@ -14,10 +20,12 @@ execute:
 suppressMessages(library(tidyverse))
 suppressMessages(library(DT))
 
-dat <- read_tsv(file.path("data", "antibody-meta-data.txt"))
+dat <- read_tsv(file.path("../data", "antibody-meta-data.txt"))
 ```
 
 ```{r}
+#| column: screen-inset-shaded
+
 dat %>%
 dplyr::mutate("Data Access" = paste0('<a href="', `Data Access`, '">', `Data Access`, '</a>')) %>% 
 datatable(filter = 'top', escape = FALSE)

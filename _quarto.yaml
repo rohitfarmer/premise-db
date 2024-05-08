@@ -11,7 +11,7 @@ website:
     background: primary
     right:
       - text: Catalog
-        file: catalog.qmd
+        file: catalog/index.qmd
       - text: News
         file: news.qmd
       - icon: github

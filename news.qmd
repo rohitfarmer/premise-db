@@ -13,6 +13,6 @@ listing:
   table-striped: true
   fields: [date, title, author, reading-time]
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 comments: false
 ---
