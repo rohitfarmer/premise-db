@@ -1,6 +1,6 @@
 ---
 title: Catalog
-description: "List of all PREMISE databases"
+description: "List of all the PREMISE databases"
 page-layout: full
 title-block-banner: true
 comments: false
@@ -19,6 +19,6 @@ dat <- read_tsv(file.path("data", "antibody-meta-data.txt"))
 
 ```{r}
 dat %>%
-dplyr::mutate("Data_access" = paste0('<a href="', Data_access, '">', Data_access, '</a>')) %>% 
+dplyr::mutate("Data Access" = paste0('<a href="', `Data Access`, '">', `Data Access`, '</a>')) %>% 
 datatable(filter = 'top', escape = FALSE)
 ```
