@@ -1,0 +1,19 @@
+---
+title: "About"
+pagetitle: "PREMISE Databases - About"
+page-layout: full
+title-block-banner: false
+comments: false
+open-graph:
+  image: images/premise.png
+twitter-card:
+  image: images/premise.png
+---
+
+```{=html}
+<img src="../images/premise.png" alt="PREMISE infographics" align="right" width="260" style="padding: 10px 10px 10px 10px;"/>
+```
+
+At the NIAID Vaccine Research Center, the PREMISE (Pandemic REsponse REpository through Microbial and Immune Surveillance and Epidemiology) program was established to support pandemic preparedness and response. Through a network of investigators and collaborators, PREMISE conducts virologic and immunologic screening of targeted and broad cohorts to detect reactivity against pathogens of pandemic potential. PREMISE also sequences samples from animal reservoirs and symptomatic humans to identify new and re-emerging pathogens. The resulting analyses are shared to pre-emptively generate reagent and data resources for early detection and diagnosis, and to identify monoclonal antibodies and immunogens for vaccine and therapeutic discovery and development. Ultimately, PREMISE aims to serve as a translational vehicle to integrate serologic and cellular immune discovery, targeting a broad array of pathogens, into product development for pathogens with pandemic potential.
+
+**Contact:** [premise@nih.gov](mailto:premise@nih.gov) 

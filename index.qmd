@@ -1,18 +1,37 @@
 ---
-pagetitle: "PREMISE Databases"
-page-layout: full
+pagetitle: PREMISE Database
 title-block-banner: false
 comments: false
-open-graph:
-  image: images/premise.png
-twitter-card:
-  image: images/premise.png
+execute:
+    echo: false
 ---
 
 ```{=html}
-<img src="images/premise.png" alt="PREMISE infographics" align="right" width="260" style="padding: 10px 10px 10px 10px;"/>
+<br>
+<br>
+
+<p style="text-align: center;"><b>PREMISE (Pandemic REsponse REpository through Microbial and Immune Surveillance and Epidemiology)</b> Database is an extensive collection of monoclonal antibody sequences targeting pathogens of pandemic potential.</p>
+
+<br>
+<br>
+<hr>
 ```
 
-At the NIAID Vaccine Research Center, the PREMISE (Pandemic REsponse REpository through Microbial and Immune Surveillance and Epidemiology) program was established to support pandemic preparedness and response. Through a network of investigators and collaborators, PREMISE conducts virologic and immunologic screening of targeted and broad cohorts to detect reactivity against pathogens of pandemic potential. PREMISE also sequences samples from animal reservoirs and symptomatic humans to identify new and re-emerging pathogens. The resulting analyses are shared to pre-emptively generate reagent and data resources for early detection and diagnosis, and to identify monoclonal antibodies and immunogens for vaccine and therapeutic discovery and development. Ultimately, PREMISE aims to serve as a translational vehicle to integrate serologic and cellular immune discovery, targeting a broad array of pathogens, into product development for pathogens with pandemic potential.
 
-**Contact:** [premise@nih.gov](mailto:premise@nih.gov) 
+
+
+```{r}
+#| warning: false
+suppressMessages(library(tidyverse))
+suppressMessages(library(DT))
+
+dat <- read_tsv(file.path("data", "antibody-meta-data.txt"))
+```
+
+```{r}
+#| column: screen-inset-shaded
+
+dat %>%
+dplyr::mutate("Data Access" = paste0('<a href="', `Data Access`, '">', `Data Access`, '</a>')) %>% 
+datatable(filter = 'top', escape = FALSE)
+```
