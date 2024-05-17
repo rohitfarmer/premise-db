@@ -23,15 +23,19 @@ execute:
 ```{r}
 #| warning: false
 suppressMessages(library(tidyverse))
+suppressMessages(library(readxl))
 suppressMessages(library(DT))
 
-dat <- read_tsv(file.path("data", "antibody-meta-data.txt"))
+dat <- read_excel(file.path("data", "premise-antibody-meta-data.xlsx"))
 ```
 
 ```{r}
 #| column: screen-inset-shaded
 
 dat %>%
-dplyr::mutate("Data Access" = paste0('<a href="', `Data Access`, '">', `Data Access`, '</a>')) %>% 
-datatable(filter = 'top', escape = FALSE)
+    dplyr::mutate("Data Access" = paste0('<a href="', `Data Access`, '">', `Data Access`, '</a>')) %>% 
+        DT::datatable(filter = 'top', escape = FALSE,
+                      extensions = 'Buttons', # to add buttons to copy and download data as CSV and Excel files
+                      options = list(dom = 'Blfrtip', buttons = c('excel')))
 ```
+

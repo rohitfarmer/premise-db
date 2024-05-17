@@ -10,6 +10,7 @@
 .Ruserdata
 _site
 .DS_Store
+zenodo-data
 
 # Example code in package build process
 *-Ex.R

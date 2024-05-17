@@ -1,6 +1,5 @@
 ---
 title: "About"
-pagetitle: "PREMISE Databases - About"
 page-layout: full
 title-block-banner: false
 comments: false
